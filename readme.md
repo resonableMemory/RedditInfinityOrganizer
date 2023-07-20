@@ -2,6 +2,11 @@
 
 This project consists of three Python scripts: `duplicateFolderSorter.py`, `ExtensionfileOrganizer.py`, and `redundantAndInvalidRemover.py`. Each script serves a specific purpose to help you organize and clean up files downloaded from Infinity for Reddit app.
 
+Please note that these issues were encountered while running the Infinity for Reddit app on Android 8. The provided scripts aim to address these issues and streamline the organization and cleanup of downloaded files.
+
+Additionally, please note that this project was created for personal use to organize files before making a backup. You are welcome to use, modify, and distribute the scripts as per the terms of the [MIT License](LICENSE). Feel free to adapt the code to suit your needs and use it in your own projects.
+
+
 ## duplicateFolderSorter.py
 
 ### Functionality:
@@ -32,6 +37,8 @@ This script addresses an issue in Infinity for Reddit where tapping on the downl
 5. Renames `file.extension (1)` to a properly formatted file name, for example, `file-RandomString.extension`.
 
 Additionally, for efficiency purposes, each folder also maintains a `checked_file.json` to keep track of validated files. If a file has been validated before, it won't be validated again to save time, especially when dealing with a large number of files.
+
+
 
 ## How to Use
 

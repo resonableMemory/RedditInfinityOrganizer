@@ -38,9 +38,11 @@ This script addresses an issue in Infinity for Reddit where tapping on the downl
 3. Place the scripts in the directory where you want to organize and clean up your files.
 4. Open a terminal or command prompt and navigate to the directory where the scripts are located.
 5. Run each script by executing the following commands:
+```bash
 python duplicateFolderSorter.py
 python ExtensionfileOrganizer.py
 python redundantAndInvalidRemover.py
+```
 6. Follow the on-screen prompts to proceed with the organization and cleanup process.
 
 **Note:** Before running the scripts, it's advisable to create a backup of your files, as the operations performed by the scripts are irreversible.

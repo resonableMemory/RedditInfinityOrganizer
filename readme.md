@@ -31,6 +31,8 @@ This script addresses an issue in Infinity for Reddit where tapping on the downl
 4. Checks if every media file is valid and not an incomplete download file. If it's invalid, it will be deleted.
 5. Renames `file.extension (1)` to a properly formatted file name, for example, `file-RandomString.extension`.
 
+Additionally, for efficiency purposes, each folder also maintains a `checked_file.json` to keep track of validated files. If a file has been validated before, it won't be validated again to save time, especially when dealing with a large number of files.
+
 ## How to Use
 
 1. Ensure you have Python installed on your system (compatible version: Python 3.x).
